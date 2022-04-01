@@ -21,6 +21,12 @@
     background-attachment: fixed;
 }
 
+.container2{
+    background-color: aqua;
+    width: 30%;
+    margin-left: 34%;
+}
+
 .bg-image-1 {
     background-image: url(../images/pexels-caio-67112.jpg);
 }
@@ -35,4 +41,13 @@
 
 .bg-color-1 {
     background-color: var(--bg-gray);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Ubuntu:wght@500&display=swap');
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
 }
